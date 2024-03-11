@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
     *{
          margin: 0;
         padding: 0;
@@ -32,19 +29,3 @@
         color: dimgrey;
         transition: color 700ms;
     }
-    </style>
-
-<head>
-    <title>Roberto campos</title>
-</head>
-<body>
-     <header>
-        <div class="link">
-            <a href="http://www.github.com/elulacara">github</a>
-            <a href="http://www.instagram.com.br/roberto_cbmc">instagram</a>
-            <a href="http://www.linkedin.com.br/nao lembro">linkedin</a>
-        </div>
-     </header>
-    </div>
-</body>
-</html>
