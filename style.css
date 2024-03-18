@@ -5,13 +5,13 @@
         border: 0;
       }  
     body {
-        background-color: rgb(43, 46, 56);
+        background-color: rgb(126, 182, 83);
     }
 
     header {
         padding: 50px;
-        border-bottom: 1px rgb(234, 233, 240);
-        background-color: rgb(4, 4, 4);
+        border-bottom: 15px solid rgb(235, 235, 237);
+        background-color: rgb(212, 219, 75);
     }
 
     header div {
@@ -19,11 +19,12 @@
     }
     header div a {
         color: rgb(206, 206, 219);
-        font-size: 20px;
+        font-size: 40px;
         line-height: 30px;
         margin: 0 16px;
         text-decoration: none;
         font-family:"incosolata",monospace;
+        transition: color 700ms;
     } 
     header div a:hover {
         color: dimgrey;
