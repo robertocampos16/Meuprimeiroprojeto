@@ -5,20 +5,21 @@
         border: 0;
       }  
     body {
-        background-color: rgb(126, 182, 83);
+        background-color: rgb(97, 82, 240);
     }
 
     header {
         padding: 50px;
-        border-bottom: 15px solid rgb(235, 235, 237);
-        background-color: rgb(212, 219, 75);
+        border-bottom: 15px solid rgb(34, 191, 211);
+        background-color: rgb(26, 21, 89);
     }
 
-    header div {
+    .links {
         text-align: center;
     }
-    header div a {
-        color: rgb(206, 206, 219);
+
+    .links a {
+        color: rgb(109, 109, 109);
         font-size: 40px;
         line-height: 30px;
         margin: 0 16px;
@@ -26,7 +27,47 @@
         font-family:"incosolata",monospace;
         transition: color 700ms;
     } 
-    header div a:hover {
-        color: dimgrey;
+    
+    .links a:hover {
+        color: rgb(72, 154, 232);
         transition: color 700ms;
     }
+
+    #box{
+       text-align: center;
+       padding: 32px;
+    }
+    #box img{
+       border-radius: 50%;
+       border: 5px solid black;
+       margin-bottom: 32px;
+    }
+    #box h1 {
+        font-size: 42px;
+        line-height: 52px;
+        font-weight: bold;
+        }
+
+    #box h2 {
+        font-size: 24px;
+        line-height: 34px;
+        font-weight: normal;
+        margin-top: 8px;
+        opacity: 0.8;
+    }
+    #box p {
+        max-width: 500px;
+        margin: 32px auto;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+   #linksfooter {
+    padding-top: 32px;
+   }
+
+   #linksfooter{
+    padding-top: 32px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--subcor);
+   }
